@@ -84,7 +84,7 @@ class NewComment(unittest.TestCase):
         self.assertEqual(search_string, change_text_field)
 
     def test_delete(self):
-        search_successfull_text = "Selected comments deleted successfull"
+        search_successfully_text = "Selected comments deleted successfull"
         self.driver.find_element_by_id("newbutton").click()
         self.driver.find_element_by_id("Text").click()
         self.driver.find_element_by_id("Text").clear()
@@ -96,7 +96,7 @@ class NewComment(unittest.TestCase):
         self.driver.find_element_by_xpath("//input[@value='Delete']").click()
         self.driver.find_element_by_xpath("//button/span").click()
         self.assertEqual(self.driver.find_element_by_xpath('//*[@id="infoField"]').text,
-                         search_successfull_text)
+                         search_successfully_text)
 
     def tearDown(self):
         self.driver.quit()
