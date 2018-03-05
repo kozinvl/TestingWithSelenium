@@ -11,19 +11,21 @@ class NewComment(unittest.TestCase):
         self.driver.get("http://commentssprintone.azurewebsites.net/")
 
     def test_error_max_length(self):
-        search_error_text = "The maximum length of Comment Text field is 50 characters"
+        """checking max length in text field"""
+
+        error_text = "The maximum length of Comment Text field is 50 characters"
         self.driver.find_element_by_xpath('//*[@id="newbutton"]').click()
         search_comment_field_text = self.driver.find_element_by_name("Text")
         for i in range(49):
             search_comment_field_text.send_keys("x", Keys.ENTER)
         self.driver.find_element_by_name("Number").click()
         self.assertEqual(self.driver.find_element_by_xpath('//*[@id="errorfield"]/div[1]/span/span').text,
-                         search_error_text)
+                         error_text)
 
-    def test_new_comment_field_one_category(self):
+    def test_add_comment_field_one_category(self):
+        """add comment with select one category"""
         search_error_text = 'nnnnn'
-        new_comment_button = self.driver.find_element_by_xpath('//*[@id="newbutton"]')
-        new_comment_button.click()
+        self.driver.find_element_by_xpath('//*[@id="newbutton"]').click()
         field_text = self.driver.find_element_by_name("Text")
         for i in range(5):
             field_text.send_keys("n", Keys.ENTER)
@@ -35,9 +37,9 @@ class NewComment(unittest.TestCase):
         self.assertEqual(self.driver.find_element_by_xpath(
             '//*[@id="main"]/div/div[5]/form/table/tbody/tr[1]/td[3]').text, search_error_text)
 
-    def test_new_comment_field_all_category(self):
-        new_comment_button = self.driver.find_element_by_xpath('//*[@id="newbutton"]')
-        new_comment_button.click()
+    def test_add_comment_field_all_category(self):
+        """add comment with select all categories"""
+        self.driver.find_element_by_xpath('//*[@id="newbutton"]').click()
         field_text = self.driver.find_element_by_name("Text")
         for i in range(5):
             field_text.send_keys("n", Keys.ENTER)
@@ -50,6 +52,7 @@ class NewComment(unittest.TestCase):
         time.sleep(2)
 
     def test_duplicate(self):
+        """checking duplicate button"""
         self.driver.find_element_by_id("newbutton").click()
         self.driver.find_element_by_id("Text").send_keys("nnnnn")
         self.driver.find_element_by_xpath("(//input[@id='Categories'])[2]").click()
@@ -66,7 +69,9 @@ class NewComment(unittest.TestCase):
         time.sleep(1)
 
     def test_edit(self):
+        """checking edit button"""
         self.test_comment = "new comment"
+        change_text_field = "edit"
         self.driver.find_element_by_id("newbutton").click()
         self.driver.find_element_by_id("Text").send_keys(self.test_comment, Keys.ENTER)
         self.driver.find_element_by_name("AllSelect").send_keys(Keys.ENTER)
@@ -77,13 +82,17 @@ class NewComment(unittest.TestCase):
                                           'form/table/tbody/tr[1]/td[1]/input[1]').click()
         self.driver.find_element_by_xpath('//*[@id="command-navigation"]/input[2]').click()
         self.driver.find_element_by_id("Text").clear()
-        change_text_field = "edit"
+
         self.driver.find_element_by_id("Text").send_keys(change_text_field)
-        search_string = self.driver.find_element_by_id("Text").get_attribute("value")
-        time.sleep(2)
+        self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
+        self.driver.find_element_by_link_text("Number").click()
+        time.sleep(3)
+        search_string = self.driver.find_element_by_xpath('//*[@id="main"]/div/div[5]'
+                                                          '/form/table/tbody/tr[1]/td[3]').text
         self.assertEqual(search_string, change_text_field)
 
-    def test_delete(self):
+    def test_delete_comment(self):
+        """checking delete button"""
         search_successfully_text = "Selected comments deleted successfull"
         self.driver.find_element_by_id("newbutton").click()
         self.driver.find_element_by_id("Text").click()
@@ -97,6 +106,9 @@ class NewComment(unittest.TestCase):
         self.driver.find_element_by_xpath("//button/span").click()
         self.assertEqual(self.driver.find_element_by_xpath('//*[@id="infoField"]').text,
                          search_successfully_text)
+
+    def test_delete_comments(self):
+        pass
 
     def tearDown(self):
         self.driver.quit()

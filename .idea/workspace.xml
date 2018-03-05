@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="" />
+    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/selen/selen_home.py" afterPath="$PROJECT_DIR$/selen/selen_home.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +17,10 @@
       <file leaf-file-name="selen_home.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selen/selen_home.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+            <state relative-caret-position="1870">
+              <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1520270542272" expanded="true" signature="908:1848" ph="..." />
-                <marker date="1520270542272" expanded="true" signature="909:1848" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -42,11 +46,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="74" />
-    <option name="width" value="1561" />
-    <option name="height" value="930" />
+    <option name="x" value="50" />
+    <option name="width" value="1637" />
+    <option name="height" value="1017" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -62,6 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -78,8 +84,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,7 +106,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for selen_home.NewComment">
+  <component name="RunManager" selected="Python tests.Unittests for selen_home.NewComment.test_comments_category">
     <configuration name="Unittests for selen_home.NewComment" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,6 +121,20 @@
       <option name="_new_target" value="&quot;selen_home.NewComment&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for selen_home.NewComment.test_comments_category" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeSelen" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment.test_comments_category&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for selen_home.NewComment.test_def1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,20 +147,6 @@
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;selen_home.NewComment.test_def1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for selen_home.NewComment.test_delete" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selen" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HomeSelen" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;selen_home.NewComment.test_delete&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for selen_home.NewComment.test_edit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -175,18 +179,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_edit" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_delete" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_error_max_length" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_error_max_length" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_comments_category" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_comments_category" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_error_max_length" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_delete" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_edit" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_edit" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
       </list>
     </recent_temporary>
   </component>
@@ -204,64 +208,77 @@
       <option name="presentableId" value="Default" />
       <updated>1520162061411</updated>
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1520278226552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520278226552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_selen_home_NewComment - 2018.03.05 at 19h 23m 40s.xml">
-      <configuration name="Unittests for selen_home.NewComment" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_comments_category - 2018.03.05 at 23h 31m 33s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_comments_category" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment - 2018.03.05 at 19h 30m 11s.xml">
-      <configuration name="Unittests for selen_home.NewComment" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_comments_category - 2018.03.05 at 23h 32m 20s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_comments_category" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_duplicate - 2018.03.05 at 13h 11m 14s.xml">
-      <configuration name="Unittests for selen_home.NewComment.test_duplicate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_duplicate - 2018.03.05 at 13h 11m 25s.xml">
-      <configuration name="Unittests for selen_home.NewComment.test_duplicate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_duplicate - 2018.03.05 at 13h 11m 45s.xml">
-      <configuration name="Unittests for selen_home.NewComment.test_duplicate" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 12h 52m 38s.xml">
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 05m 10s.xml">
       <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 12h 58m 19s.xml">
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 06m 07s.xml">
       <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 13h 09m 49s.xml">
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 08m 28s.xml">
       <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 13h 16m 15s.xml">
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 09m 41s.xml">
       <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_selen_home_NewComment_test_error_max_length - 2018.03.05 at 19h 24m 46s.xml">
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 14m 36s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 15m 40s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 16m 26s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_selen_home_NewComment_test_error_max_length - 2018.03.05 at 23h 27m 02s.xml">
       <configuration name="Unittests for selen_home.NewComment.test_error_max_length" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="74" width="1561" height="930" extended-state="0" />
+    <frame x="50" y="0" width="1637" height="1017" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29708737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08204812" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29462102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3130531" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -270,12 +287,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/selen/selen_home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1520270542272" expanded="true" signature="908:1848" ph="..." />
-            <marker date="1520270542272" expanded="true" signature="909:1848" ph="..." />
           </folding>
         </state>
       </provider>
@@ -286,8 +301,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1520270542272" expanded="true" signature="908:1848" ph="..." />
-            <marker date="1520270542272" expanded="true" signature="909:1848" ph="..." />
           </folding>
         </state>
       </provider>
@@ -298,8 +311,16 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1520270542272" expanded="true" signature="908:1848" ph="..." />
-            <marker date="1520270542272" expanded="true" signature="909:1848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/selen_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -336,12 +357,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selen/selen_home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        <state relative-caret-position="1870">
+          <caret line="110" column="12" lean-forward="false" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1520270542272" expanded="true" signature="908:1848" ph="..." />
-            <marker date="1520270542272" expanded="true" signature="909:1848" ph="..." />
           </folding>
         </state>
       </provider>
