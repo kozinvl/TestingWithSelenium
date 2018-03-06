@@ -7,11 +7,12 @@ class DuplicateButton(unittest.TestCase):
         self.driver = webdriver.Chrome(
             executable_path="chromedriver.exe")
         self.driver.get("http://commentssprintone.azurewebsites.net/")
+        self.test_comment = "new"
 
     def test_duplicate(self):
         """checking duplicate button"""
         self.driver.find_element_by_id("newbutton").click()
-        self.driver.find_element_by_id("Text").send_keys("new")
+        self.driver.find_element_by_id("Text").send_keys(self.test_comment)
         self.driver.find_element_by_xpath("(//input[@id='Categories'])[2]").click()
         self.driver.find_element_by_name("CurSelect").click()
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
@@ -20,7 +21,8 @@ class DuplicateButton(unittest.TestCase):
         self.driver.find_element_by_xpath("//input[@value='Duplicate...']").click()
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
         self.driver.find_element_by_link_text("Number").click()
-        search_duplicate = 'Copy of new'
+        search_duplicate = 'Copy of ' + self.test_comment
+        print(search_duplicate)
         self.assertEqual(self.driver.find_element_by_xpath(
             '//*[@id="main"]/div/div[5]/form/table/tbody/tr[2]/td[3]').text, search_duplicate)
 

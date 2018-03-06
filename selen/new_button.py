@@ -9,6 +9,7 @@ class NewButton(unittest.TestCase):
         self.driver = webdriver.Chrome(
             executable_path="chromedriver.exe")
         self.driver.get("http://commentssprintone.azurewebsites.net/")
+        self.add_text = "comment"
 
     def test_error_max_length(self):
         """checking max length in text field"""
@@ -26,7 +27,7 @@ class NewButton(unittest.TestCase):
         search_error_text = 'comment'
         self.driver.find_element_by_id("newbutton").click()
         field_text = self.driver.find_element_by_id("Text")
-        field_text.send_keys("comment", Keys.ENTER)
+        field_text.send_keys(self.add_text, Keys.ENTER)
         self.driver.find_element_by_id("Categories").click()
         self.driver.find_element_by_name("CurSelect").click()
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
@@ -38,7 +39,7 @@ class NewButton(unittest.TestCase):
         """add comment with select all categories"""
         self.driver.find_element_by_xpath('//*[@id="newbutton"]').click()
         field_text = self.driver.find_element_by_name("Text")
-        field_text.send_keys("comment", Keys.ENTER)
+        field_text.send_keys(self.add_text, Keys.ENTER)
         self.driver.find_element_by_name("AllSelect").click()
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
         self.driver.find_element_by_link_text("Number").click()
