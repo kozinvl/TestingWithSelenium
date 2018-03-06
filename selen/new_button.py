@@ -13,7 +13,7 @@ class NewButton(unittest.TestCase):
     def test_error_max_length(self):
         """checking max length in text field"""
         error_text = "The maximum length of Comment Text field is 50 characters"
-        self.driver.find_element_by_xpath('//*[@id="newbutton"]').click()
+        self.driver.find_element_by_id("newbutton").click()
         search_comment_field_text = self.driver.find_element_by_name("Text")
         for i in range(49):
             search_comment_field_text.send_keys("x", Keys.ENTER)

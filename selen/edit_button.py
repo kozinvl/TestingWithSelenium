@@ -1,4 +1,5 @@
 import unittest
+import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
@@ -19,9 +20,12 @@ class EditButton(unittest.TestCase):
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
         self.driver.find_element_by_xpath('//*[@id="main"]/div/div[5]/'
                                           'form/table/thead/tr/th[2]/a').click()
+
         self.driver.find_element_by_xpath('//*[@id="main"]/div/div[5]/'
                                           'form/table/tbody/tr[1]/td[1]/input[1]').click()
+
         self.driver.find_element_by_xpath('//*[@id="command-navigation"]/input[2]').click()
+
         self.driver.find_element_by_id("Text").clear()
         self.driver.find_element_by_id("Text").send_keys(change_text_field)
         self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
@@ -35,4 +39,4 @@ class EditButton(unittest.TestCase):
 
 
 if __name__ == '__main__':
-        unittest.main()
+    unittest.main()
