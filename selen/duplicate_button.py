@@ -13,18 +13,22 @@ class DuplicateButton(unittest.TestCase):
         """checking duplicate button"""
         self.driver.find_element_by_id("newbutton").click()
         self.driver.find_element_by_id("Text").send_keys(self.test_comment)
-        self.driver.find_element_by_xpath("(//input[@id='Categories'])[2]").click()
+        self.driver.find_element_by_xpath(
+            "(//input[@id='Categories'])[2]").click()
         self.driver.find_element_by_name("CurSelect").click()
-        self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
+        self.driver.find_element_by_xpath(
+            "//input[@value='Save & Return']").click()
         self.driver.find_element_by_link_text("Number").click()
         self.driver.find_element_by_name("SelectedId").click()
-        self.driver.find_element_by_xpath("//input[@value='Duplicate...']").click()
-        self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
+        self.driver.find_element_by_xpath(
+            "//input[@value='Duplicate...']").click()
+        self.driver.find_element_by_xpath(
+            "//input[@value='Save & Return']").click()
         self.driver.find_element_by_link_text("Number").click()
         search_duplicate = 'Copy of ' + self.test_comment
-        print(search_duplicate)
         self.assertEqual(self.driver.find_element_by_xpath(
-            '//*[@id="main"]/div/div[5]/form/table/tbody/tr[2]/td[3]').text, search_duplicate)
+            '//*[@id="main"]/div/div[5]/'
+            'form/table/tbody/tr[2]/td[3]').text, search_duplicate)
 
     def tearDown(self):
         self.driver.quit()
