@@ -17,12 +17,14 @@ class DeleteButton(unittest.TestCase):
         self.driver.find_element_by_id("Text").clear()
         self.driver.find_element_by_id("Text").send_keys(self.test_comment)
         self.driver.find_element_by_name("AllSelect").click()
-        self.driver.find_element_by_xpath("//input[@value='Save & Return']").click()
+        self.driver.find_element_by_xpath(
+            "//input[@value='Save & Return']").click()
         self.driver.find_element_by_link_text("Number").click()
         self.driver.find_element_by_name("SelectedId").click()
         self.driver.find_element_by_xpath("//input[@value='Delete']").click()
         self.driver.find_element_by_xpath("//button/span").click()
-        self.assertEqual(self.driver.find_element_by_xpath('//*[@id="infoField"]').text,
+        self.assertEqual(self.driver.find_element_by_xpath(
+            '//*[@id="infoField"]').text,
                          search_successfully_text)
 
     def tearDown(self):

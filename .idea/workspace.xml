@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="commit update">
+    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/selen/delete_button.py" afterPath="$PROJECT_DIR$/selen/delete_button.py" />
       <change beforePath="$PROJECT_DIR$/selen/duplicate_button.py" afterPath="$PROJECT_DIR$/selen/duplicate_button.py" />
@@ -17,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="delete_button.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_button.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selen/delete_button.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="duplicate_button.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selen/duplicate_button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -44,8 +32,8 @@
       <file leaf-file-name="new_button.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/selen/new_button.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -53,11 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit_button.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit_button.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selen/edit_button.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="41" />
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="duplicate_button.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/selen/duplicate_button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -76,27 +76,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/selen/testcomment.py" />
         <option value="$PROJECT_DIR$/selen/selen_home.py" />
-        <option value="$PROJECT_DIR$/selen/NewButton.py" />
-        <option value="$PROJECT_DIR$/selen/new_comm.py" />
-        <option value="$PROJECT_DIR$/selen/new_button.py" />
-        <option value="$PROJECT_DIR$/selen/edit_button.py" />
-        <option value="$PROJECT_DIR$/selen/duplicate_button.py" />
-        <option value="$PROJECT_DIR$/selen/delete_button.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="50" />
     <option name="width" value="1637" />
     <option name="height" value="1017" />
@@ -117,8 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,10 +121,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2 ver/commentssprintone_selenium-version2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -157,8 +145,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for delete_button.DeleteButton">
-    <configuration name="Unittests for delete_button.DeleteButton" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for selen_home.NewComment.test_comments_category">
+    <configuration name="Unittests for selen_home.NewComment" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -169,10 +157,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;delete_button.DeleteButton&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for duplicate_button.DuplicateButton.test_duplicate" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for selen_home.NewComment.test_comments_category" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -183,10 +171,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;duplicate_button.DuplicateButton.test_duplicate&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment.test_comments_category&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for edit_button.EditButton.test_edit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for selen_home.NewComment.test_def1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -197,10 +185,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;edit_button.EditButton.test_edit&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment.test_def1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for new_button.NewButton" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for selen_home.NewComment.test_edit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -211,10 +199,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;new_button.NewButton&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment.test_edit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for new_button.NewButton.test_error_max_length" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for selen_home.NewComment.test_error_max_length" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -225,23 +213,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HomeSelen" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;new_button.NewButton.test_error_max_length&quot;" />
+      <option name="_new_target" value="&quot;selen_home.NewComment.test_error_max_length&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for new_button.NewButton" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for edit_button.EditButton.test_edit" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for new_button.NewButton.test_error_max_length" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for duplicate_button.DuplicateButton.test_duplicate" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for delete_button.DeleteButton" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_edit" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_error_max_length" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_comments_category" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for delete_button.DeleteButton" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for duplicate_button.DuplicateButton.test_duplicate" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for edit_button.EditButton.test_edit" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for new_button.NewButton.test_error_max_length" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for new_button.NewButton" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_comments_category" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_error_max_length" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_edit" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for selen_home.NewComment.test_def1" />
       </list>
     </recent_temporary>
   </component>
@@ -266,79 +254,50 @@
       <option name="project" value="LOCAL" />
       <updated>1520278226552</updated>
     </task>
-    <task id="LOCAL-00002" summary="second commit">
-      <created>1520285782396</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1520285782396</updated>
-    </task>
-    <task id="LOCAL-00003" summary="commit">
-      <created>1520371125636</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1520371125636</updated>
-    </task>
-    <task id="LOCAL-00004" summary="commit">
-      <created>1520371247733</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1520371247733</updated>
-    </task>
-    <task id="LOCAL-00005" summary="commit update">
-      <created>1520373041520</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1520373041520</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_delete_button_DeleteButton - 2018.03.07 at 00h 11m 52s.xml">
-      <configuration name="Unittests for delete_button.DeleteButton" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_comments_category - 2018.03.05 at 23h 31m 33s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_comments_category" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_duplicate_button_DuplicateButton_test_duplicate - 2018.03.07 at 00h 09m 05s.xml">
-      <configuration name="Unittests for duplicate_button.DuplicateButton.test_duplicate" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_comments_category - 2018.03.05 at 23h 32m 20s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_comments_category" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_duplicate_button_DuplicateButton_test_duplicate - 2018.03.07 at 00h 09m 40s.xml">
-      <configuration name="Unittests for duplicate_button.DuplicateButton.test_duplicate" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 05m 10s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_duplicate_button_DuplicateButton_test_duplicate - 2018.03.07 at 00h 10m 11s.xml">
-      <configuration name="Unittests for duplicate_button.DuplicateButton.test_duplicate" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 06m 07s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_duplicate_button_DuplicateButton_test_duplicate - 2018.03.07 at 00h 10m 41s.xml">
-      <configuration name="Unittests for duplicate_button.DuplicateButton.test_duplicate" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 08m 28s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_edit_button_EditButton_test_edit - 2018.03.06 at 23h 42m 35s.xml">
-      <configuration name="Unittests for edit_button.EditButton.test_edit" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 09m 41s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_edit_button_EditButton_test_edit - 2018.03.06 at 23h 46m 18s.xml">
-      <configuration name="Unittests for edit_button.EditButton.test_edit" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 14m 36s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_edit_button_EditButton_test_edit - 2018.03.06 at 23h 49m 12s.xml">
-      <configuration name="Unittests for edit_button.EditButton.test_edit" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 15m 40s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_new_button_NewButton_test_error_max_length - 2018.03.06 at 23h 47m 57s.xml">
-      <configuration name="Unittests for new_button.NewButton.test_error_max_length" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_edit - 2018.03.05 at 23h 16m 26s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_edit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_new_button_NewButton_test_error_max_length - 2018.03.06 at 23h 48m 54s.xml">
-      <configuration name="Unittests for new_button.NewButton.test_error_max_length" configurationId="tests" />
+    <history-entry file="Unittests_for_selen_home_NewComment_test_error_max_length - 2018.03.05 at 23h 27m 02s.xml">
+      <configuration name="Unittests for selen_home.NewComment.test_error_max_length" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="50" y="0" width="1637" height="1017" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2338063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31215772" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31215772" sideWeight="0.49761903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3130531" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -357,114 +316,77 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
-    <MESSAGE value="second commit" />
-    <MESSAGE value="commit" />
-    <MESSAGE value="commit update" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit update" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
+    <entry file="file://$PROJECT_DIR$/selen/delete_button.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="61" lean-forward="true" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="486" column="0" lean-forward="false" selection-start-line="486" selection-start-column="0" selection-end-line="486" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/testcomment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/new_comm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selen/new_button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/duplicate_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/edit_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/duplicate_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/delete_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selen/new_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -474,27 +396,7 @@
     <entry file="file://$PROJECT_DIR$/selen/edit_button.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/duplicate_button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selen/delete_button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
