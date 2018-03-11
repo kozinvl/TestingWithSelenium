@@ -1,6 +1,5 @@
 import unittest
 from selenium import webdriver
-from selenium.webdriver import DesiredCapabilities
 
 from comments_sprintone.resource.path_driver import GetDriver
 from comments_sprintone.tests.tests_function import TestFunctional
