@@ -117,7 +117,6 @@ if __name__ == '__main__':
 
 
 
-    #
     # firefox_capabilities = DesiredCapabilities.FIREFOX
     # firefox_capabilities['marionette'] = True
     # self.driver = webdriver.Firefox(capabilities=firefox_capabilities)
