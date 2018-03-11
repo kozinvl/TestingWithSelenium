@@ -1,4 +1,4 @@
-"""Classes wich returning location of elements"""
+"""Classes wich returning location of required elements"""
 import random
 
 
