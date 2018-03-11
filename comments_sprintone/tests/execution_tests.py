@@ -1,15 +1,17 @@
 import unittest
 from selenium import webdriver
+from selenium.webdriver import DesiredCapabilities
+
 from comments_sprintone.resource.path_driver import GetDriver
 from comments_sprintone.tests.tests_function import TestFunctional
-import time
+from comments_sprintone.resource.url_site import PathUrl
 
 
 class TestExecution(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(
             executable_path=GetDriver().get_driver_chrome())
-        self.driver.get("http://commentssprintone.azurewebsites.net/")
+        self.driver.get(PathUrl().get_url_site())
         self.driver.implicitly_wait(5)
 
     def test_case_first_length(self):
@@ -82,7 +84,7 @@ class TestExecution(unittest.TestCase):
         self.assertEqual(expected_result, actual_result)
 
     def test_case_nine(self):
-        """Checking error message after filling number comment page"""
+        """Checking error message after filling number on comment page"""
         TestFunctional(self.driver).create_comment()
         TestFunctional(self.driver).filling_number('1024', False)
         TestFunctional(self.driver).filling_text_comment("Some text", False)
@@ -97,3 +99,24 @@ class TestExecution(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # firefox_capabilities = DesiredCapabilities.FIREFOX
+    # firefox_capabilities['marionette'] = True
+    # self.driver = webdriver.Firefox(capabilities=firefox_capabilities)
