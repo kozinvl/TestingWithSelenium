@@ -31,7 +31,6 @@ class New_Comm(object):
         return ".//*[@class='webgrid-header']//a[text()='Number']"
 
     def get_category_text(self):
-        # return ".//*[@class='categorycolumn']"
         return "categorycolumn"
 
 
@@ -78,7 +77,3 @@ class Other(object):
         path_box = "(//INPUT[@type='checkbox'])"
         random_category = random.randint(1, 10)
         return "{}[{}]".format(path_box, random_category)
-
-    def contain_categories_cat(self) -> str:
-        """Getting types of categories which containing
-        in commentary on main page"""
