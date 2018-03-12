@@ -1,5 +1,4 @@
-import unittest
-from comments_sprintone.front.path_to_object import New_Comm, Other, \
+from comments_sprintone.front.path_to_object import NewComm, Other, \
     Delete, Duplicate, Edit
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,16 +6,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 
-class TestFunctional(unittest.TestCase):
+class CommPage(object):
 
     def __init__(self, driver):
-        super().__init__()
         self.driver = driver
 
     def create_comment(self):
         """click on new button and move to new comment page"""
         comment = self.driver.find_element_by_id(
-            New_Comm().get_create_button())
+            NewComm().get_create_button())
         comment.click()
 
     def duplicate_comment(self):
@@ -44,7 +42,7 @@ class TestFunctional(unittest.TestCase):
 
     def filling_text_comment(self, add_text: str, is_cleared: False):
         """filling comment field by letters"""
-        text_field = self.driver.find_element_by_id(New_Comm().send_text())
+        text_field = self.driver.find_element_by_id(NewComm().send_text())
         if is_cleared:
             text_field.clear()
         text_field.send_keys(add_text, Keys.ENTER)
@@ -52,7 +50,7 @@ class TestFunctional(unittest.TestCase):
     def filling_number(self, add_number: str, is_cleared: False):
         """filling comment field by number"""
         number_field = self.driver.find_element_by_id(
-            New_Comm().send_number())
+            NewComm().send_number())
         number_field.click()
         if is_cleared:
             number_field.clear()
@@ -73,27 +71,27 @@ class TestFunctional(unittest.TestCase):
     def chose_one_category_comment(self):
         """chose category on new comment page"""
         one_category = self.driver.find_element_by_xpath(
-            New_Comm().get_category_cat())
+            NewComm().get_category_cat())
         one_category.click()
         one_category.click()
         confirm_category = self.driver.find_element_by_name(
-            New_Comm().confirm_one_category())
+            NewComm().confirm_one_category())
         confirm_category.click()
 
     def chose_all_category_comment(self):
         """chose all category on new comment page"""
         self.driver.find_element_by_name(
-            New_Comm().confirm_all_category()).click()
+            NewComm().confirm_all_category()).click()
 
-    def check_error_length(self, expected_error):
-        comment_text = self.driver.find_element_by_xpath(
+    def check_error_length(self):
+        actual_error = self.driver.find_element_by_xpath(
             Other().alert_length()).text
-        self.assertEqual(comment_text, expected_error)
+        return actual_error
 
-    def check_error_symbol(self, expected_error):
-        comment_text = self.driver.find_element_by_id(
+    def check_error_symbol(self):
+        actual_error = self.driver.find_element_by_id(
             Other().alert_symbol()).text
-        self.assertEqual(comment_text, expected_error)
+        return actual_error
 
     def check_popup(self, expected_text):
         wait = WebDriverWait(self.driver, 3)
@@ -119,18 +117,18 @@ class TestFunctional(unittest.TestCase):
             Other().one_random_cat())
         one_category.click()
 
-    def check_title_page(self, text_page):
-        self.assertIn(text_page, self.driver.title)
+    def check_title_page(self):
+        return self.driver.title
 
     def sort_by_number(self):
         """sorting comments by number on main page"""
         sort_number = self.driver.find_element_by_xpath(
-            New_Comm().sort_by_numb())
+            NewComm().sort_by_numb())
         sort_number.click()
 
     def check_categories_main(self) -> list:
         web_elements = self.driver.find_elements_by_class_name(
-            New_Comm().get_category_text())
+            NewComm().get_category_text())
         web_text_elements = [web_element.text for web_element in web_elements]
         actual_result = [each.split(",") for each in web_text_elements]
         return actual_result
