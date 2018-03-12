@@ -2,7 +2,7 @@
 import random
 
 
-class New_Comm(object):
+class NewComm(object):
 
     def get_create_button(self) -> str:
         return "newbutton"
