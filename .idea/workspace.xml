@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="">
+    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="updated README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" afterPath="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" />
+      <change beforePath="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" afterPath="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" />
+      <change beforePath="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" afterPath="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,23 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4082655">
+    <splitter split-orientation="horizontal" split-proportion="0.45360112">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="path_to_object.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="path_to_object.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+                <state relative-caret-position="-564">
+                  <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="comm_page.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="comm_page.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-697">
+                <state relative-caret-position="221">
                   <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding />
                 </state>
@@ -53,8 +55,8 @@
           <file leaf-file-name="execution_tests.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -105,9 +107,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/comments_sprintone/tests/tests_function.py" />
         <option value="$PROJECT_DIR$/comments_sprintone/front/tests_function.py" />
+        <option value="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" />
         <option value="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" />
         <option value="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" />
       </list>
     </option>
   </component>
@@ -153,6 +155,18 @@
               <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HomeSelen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeSelen" type="462c0819:PsiDirectoryNode" />
+              <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeSelen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeSelen" type="462c0819:PsiDirectoryNode" />
+              <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,25 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for execution_tests.TestExecution">
-    <configuration name="path_to_object" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/front" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HomeSelen" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for execution_tests.TestExecution.test_case_three">
     <configuration name="Unittests for execution_tests.TestExecution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,20 +255,34 @@
       <option name="_new_target" value="&quot;execution_tests.TestExecution.test_case_second_symbol&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for execution_tests.TestExecution.test_case_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeSelen" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;execution_tests.TestExecution.test_case_three&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution" />
-      <item index="1" class="java.lang.String" itemvalue="Python.path_to_object" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_one_length" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_second_symbol" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_nine" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_one_length" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_second_symbol" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_nine" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_three" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_one_length" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_nine" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_second_symbol" />
-        <item index="4" class="java.lang.String" itemvalue="Python.path_to_object" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_three" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_one_length" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_nine" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_second_symbol" />
       </list>
     </recent_temporary>
   </component>
@@ -353,24 +363,19 @@
       <option name="project" value="LOCAL" />
       <updated>1520882917194</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated README">
+      <created>1520883167675</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1520883167675</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_execution_tests_TestExecution - 2018.03.12 at 19h 25m 06s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_execution_tests_TestExecution - 2018.03.12 at 21h 27m 57s.xml">
       <configuration name="Unittests for execution_tests.TestExecution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_first_length - 2018.03.11 at 18h 41m 27s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_first_length" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_nine - 2018.03.12 at 19h 22m 55s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_nine" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_nine - 2018.03.12 at 19h 23m 13s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_nine" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_one_length - 2018.03.12 at 19h 13m 25s.xml">
       <configuration name="Unittests for execution_tests.TestExecution.test_case_one_length" configurationId="tests" />
@@ -387,11 +392,24 @@
     <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_second_symbol - 2018.03.12 at 19h 17m 46s.xml">
       <configuration name="Unittests for execution_tests.TestExecution.test_case_second_symbol" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 05m 37s.xml">
+      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 06m 07s.xml">
+      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 06m 26s.xml">
+      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 25m 23s.xml">
+      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1404762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1404762" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19247788" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -419,7 +437,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="updated commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated commit" />
+    <MESSAGE value="updated README" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -650,26 +669,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
+    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
+    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="-564">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>

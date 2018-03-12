@@ -38,16 +38,18 @@ class TestExecution(unittest.TestCase):
     def test_case_three(self):
         """Checking duplicate button and alert popup without category"""
         CommPage(self.driver).duplicate_comment()
-        CommPage(self.driver).check_popup(
-            "Please, select one category")
+        expected_alert = "Please, select one category"
+        actual_alert = CommPage(self.driver).check_popup()
+        assert expected_alert in actual_alert
 
     def test_case_four(self):
         """Checking duplicate button and alert popup
         with select category of main page"""
         CommPage(self.driver).chose_all_category_main()
         CommPage(self.driver).duplicate_comment()
-        CommPage(self.driver).check_popup(
-            "Please, select one category")
+        expected_alert = "Please, select one category"
+        actual_alert = CommPage(self.driver).check_popup()
+        assert expected_alert in actual_alert
 
     def test_case_five(self):
         """Checking title name of edit page"""
