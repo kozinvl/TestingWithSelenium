@@ -3,9 +3,7 @@ import random
 
 
 class NewComm(object):
-
-    def get_create_button(self) -> str:
-        return "newbutton"
+    CREATE_BUTTON = "newbutton"
 
     def send_text(self) -> str:
         return "Text"
@@ -35,13 +33,11 @@ class NewComm(object):
 
 
 class Edit(object):
-    def get_edit_button(self) -> str:
-        return "//input[@value='Edit..']"
+    EDIT_BUTTON = "//input[@value='Edit..']"
 
 
 class Duplicate(object):
-    def get_duplcate_button(self) -> str:
-        return "//input[@value='Duplicate...']"
+    DUPLICATE_BUTTON = "//input[@value='Duplicate...']"
 
 
 class Delete(object):
@@ -57,20 +53,11 @@ class Delete(object):
 
 
 class Other(object):
-    def get_save_return_btn(self) -> str:
-        return ".//*/input[@value='Save & Return']"
-
-    def get_save_btn(self) -> str:
-        return ".//*/input[@value='Save']"
-
-    def alert_length(self) -> str:
-        return "//SPAN[@htmlfor='Text']"
-
-    def alert_symbol(self) -> str:
-        return "errorfield"
-
-    def all_category_main(self) -> str:
-        return "SelectedId"
+    SAVE_RETURN_BUTTON = ".//*/input[@value='Save & Return']"
+    SAVE_BUTTON = ".//*/input[@value='Save']"
+    ALL_CATEGORIES_MAIN = "SelectedId"
+    ERROR_LENGTH = "//SPAN[@htmlfor='Text']"
+    ERROR_SYMBOL = "errorfield"
 
     def one_random_cat(self) -> str:
         """Choosing random category main page"""

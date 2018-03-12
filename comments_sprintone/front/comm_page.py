@@ -14,18 +14,18 @@ class CommPage(object):
     def create_comment(self):
         """click on new button and move to new comment page"""
         comment = self.driver.find_element_by_id(
-            NewComm().get_create_button())
+            NewComm().CREATE_BUTTON)
         comment.click()
 
     def duplicate_comment(self):
         duplicate_comment = self.driver.find_element_by_xpath(
-            Duplicate().get_duplcate_button())
+            Duplicate().DUPLICATE_BUTTON)
         duplicate_comment.click()
 
     def edit_comment(self):
         """click on edit button and move to edit page"""
         edit_comment = self.driver.find_element_by_xpath(
-            Edit().get_edit_button())
+            Edit().EDIT_BUTTON)
         edit_comment.click()
 
     def delete_comment(self):
@@ -59,13 +59,13 @@ class CommPage(object):
     def save(self):
         """save all data on new comment page"""
         save_btn = self.driver.find_element_by_xpath(
-            Other().get_save_btn())
+            Other().SAVE_BUTTON)
         save_btn.click()
 
     def save_and_return(self):
         """save and return to main page"""
         save_return_btn = self.driver.find_element_by_xpath(
-            Other().get_save_return_btn())
+            Other().SAVE_RETURN_BUTTON)
         save_return_btn.click()
 
     def chose_one_category_comment(self):
@@ -85,19 +85,19 @@ class CommPage(object):
 
     def check_error_length(self):
         actual_error = self.driver.find_element_by_xpath(
-            Other().alert_length()).text
+            Other().ERROR_LENGTH).text
         return actual_error
 
     def check_error_symbol(self):
         actual_error = self.driver.find_element_by_id(
-            Other().alert_symbol()).text
+            Other().ERROR_SYMBOL).text
         return actual_error
 
-    def check_popup(self, expected_text):
+    def check_popup(self):
         wait = WebDriverWait(self.driver, 3)
         wait.until(EC.alert_is_present())
         alert = self.driver.switch_to.alert
-        assert expected_text in alert.text
+        return alert.text
 
     def check_successful_popup(self):
         successful_txt = self.driver.find_element_by_id(
@@ -107,7 +107,7 @@ class CommPage(object):
     def chose_all_category_main(self):
         """chose all category on main page"""
         all_category = self.driver.find_elements_by_name(
-            Other().all_category_main())
+            Other().ALL_CATEGORIES_MAIN)
         for each_category in all_category:
             each_category.click()
 
