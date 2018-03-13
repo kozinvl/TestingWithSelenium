@@ -4,32 +4,18 @@ import random
 
 class NewComm(object):
     CREATE_BUTTON = "newbutton"
-
-    def send_text(self) -> str:
-        return "Text"
-
-    def send_number(self) -> str:
-        return "Number"
-
-    def get_error_length(self) -> str:
-        return ".field-validation-error>span"
+    SEND_TEXT = "Text"
+    SEND_NUMBER = "Number"
+    ALL_CATEGORIES = "AllSelect"
+    ONE_CATEGORY = "CurSelect"
+    TEXT_IN_CATEGORIES = "categorycolumn"
+    SORT_BY_NUMBER = ".//*[@class='webgrid-header']//a[text()='Number']"
 
     def get_category_cat(self) -> str:
+        """chose random category on the new comm page"""
         random_digit = random.randint(2, 4)
         return ".//*[@id='Categories'][@name='Categories']" \
                "[@value = {digit}]".format(digit=random_digit)
-
-    def confirm_all_category(self):
-        return "AllSelect"
-
-    def confirm_one_category(self) -> str:
-        return "CurSelect"
-
-    def sort_by_numb(self):
-        return ".//*[@class='webgrid-header']//a[text()='Number']"
-
-    def get_category_text(self):
-        return "categorycolumn"
 
 
 class Edit(object):
@@ -41,15 +27,9 @@ class Duplicate(object):
 
 
 class Delete(object):
-
-    def get_delete_button(self):
-        return "//input[@value='Delete']"
-
-    def get_confirmative_button(self):
-        return "//*[text()='Yes']"
-
-    def get_successful_text(self):
-        return "infoField"
+    DELETE_BUTTON = "//input[@value='Delete']"
+    CONFIRMATION_BUTTON = "//*[text()='Yes']"
+    SUCCESSFUL_TEXT = "infoField"
 
 
 class Other(object):
@@ -58,9 +38,12 @@ class Other(object):
     ALL_CATEGORIES_MAIN = "SelectedId"
     ERROR_LENGTH = "//SPAN[@htmlfor='Text']"
     ERROR_SYMBOL = "errorfield"
+    RANDOM_CAT_START = 1
+    RANDOM_CAT_FINISH = 10
 
     def one_random_cat(self) -> str:
         """Choosing random category main page"""
-        path_box = "(//INPUT[@type='checkbox'])"
-        random_category = random.randint(1, 10)
-        return "{}[{}]".format(path_box, random_category)
+        path_checkbox = "(//INPUT[@type='checkbox'])"
+        random_category = random.randint(Other.RANDOM_CAT_START,
+                                         Other.RANDOM_CAT_FINISH)
+        return "{}[{}]".format(path_checkbox, random_category)
