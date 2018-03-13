@@ -6,12 +6,12 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 
-class CommPage(object):
+class CommentsPage(object):
 
     def __init__(self, driver):
         self.driver = driver
 
-    def create_comment(self):
+    def click_create_comment(self):
         """click on new button and move to new comment page"""
         comment = self.driver.find_element_by_id(
             NewComm().CREATE_BUTTON)
@@ -71,7 +71,7 @@ class CommPage(object):
     def chose_one_category_comment(self):
         """chose category on new comment page"""
         one_category = self.driver.find_element_by_xpath(
-            NewComm().get_category_cat())
+            NewComm().chose_random_category_cat())
         one_category.click()
         one_category.click()
         confirm_category = self.driver.find_element_by_name(
@@ -83,29 +83,29 @@ class CommPage(object):
         self.driver.find_element_by_name(
             NewComm().ALL_CATEGORIES).click()
 
-    def check_error_length(self):
+    def get_error_length(self):
         actual_error = self.driver.find_element_by_xpath(
             Other().ERROR_LENGTH).text
         return actual_error
 
-    def check_error_symbol(self):
+    def get_error_symbol(self):
         actual_error = self.driver.find_element_by_id(
             Other().ERROR_SYMBOL).text
         return actual_error
 
-    def check_popup(self):
+    def get_check_popup(self):
         wait = WebDriverWait(self.driver, 3)
         wait.until(EC.alert_is_present())
         alert = self.driver.switch_to.alert
         return alert.text
 
-    def check_successful_popup(self):
+    def get_successful_popup(self):
         successful_txt = self.driver.find_element_by_id(
             Delete().SUCCESSFUL_TEXT)
         return successful_txt.text
 
-    def chose_all_category_main(self):
-        """chose all category on main page"""
+    def chose_all_categories_main(self):
+        """chose all categories on main page"""
         all_category = self.driver.find_elements_by_name(
             Other().ALL_CATEGORIES_MAIN)
         for each_category in all_category:
@@ -114,10 +114,10 @@ class CommPage(object):
     def chose_one_category_main(self):
         """chose one category on main page"""
         one_category = self.driver.find_element_by_xpath(
-            Other().one_random_cat())
+            Other().chose_one_random_cat())
         one_category.click()
 
-    def check_title_page(self):
+    def get_name_title_page(self):
         return self.driver.title
 
     def sort_by_number(self):
@@ -126,7 +126,7 @@ class CommPage(object):
             NewComm().SORT_NUMBER)
         sort_number.click()
 
-    def check_categories_main(self) -> list:
+    def get_categories_main(self) -> list:
         web_elements = self.driver.find_elements_by_class_name(
             NewComm().TEXT_CATEGORIES)
         web_text_elements = [web_element.text for web_element in web_elements]
