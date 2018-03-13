@@ -65,7 +65,7 @@ class TestExecution(unittest.TestCase):
         CommPage(self.driver).edit_comment()
         CommPage(self.driver).chose_all_category_comment()
         CommPage(self.driver).filling_text_comment("EDIT", True)
-        CommPage(self.driver).save_and_return()
+        CommPage(self.driver).save_return()
         CommPage(self.driver).sort_by_number()
         actual_result = CommPage(self.driver).check_categories_main()
         expected_result = ['Cat1; Cat2; Cat3; Cat4; Cat5']
