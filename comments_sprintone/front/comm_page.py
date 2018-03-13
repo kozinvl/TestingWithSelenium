@@ -62,7 +62,7 @@ class CommPage(object):
             Other().SAVE_BUTTON)
         save_btn.click()
 
-    def save_and_return(self):
+    def save_return(self):
         """save and return to main page"""
         save_return_btn = self.driver.find_element_by_xpath(
             Other().SAVE_RETURN_BUTTON)
@@ -123,12 +123,12 @@ class CommPage(object):
     def sort_by_number(self):
         """sorting comments by number on main page"""
         sort_number = self.driver.find_element_by_xpath(
-            NewComm().SORT_BY_NUMBER)
+            NewComm().SORT_NUMBER)
         sort_number.click()
 
     def check_categories_main(self) -> list:
         web_elements = self.driver.find_elements_by_class_name(
-            NewComm().TEXT_IN_CATEGORIES)
+            NewComm().TEXT_CATEGORIES)
         web_text_elements = [web_element.text for web_element in web_elements]
         actual_result = [each.split(",") for each in web_text_elements]
         return actual_result
