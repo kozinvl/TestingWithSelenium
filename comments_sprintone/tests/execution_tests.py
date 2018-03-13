@@ -9,8 +9,8 @@ from comments_sprintone.resource.url_site import PathUrl
 class TestExecution(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(
-            executable_path=GetDriver().get_driver_chrome())
-        self.driver.get(PathUrl().get_url_site())
+            executable_path=GetDriver().DRIVER_CHROME)
+        self.driver.get(PathUrl().URL_SITE)
         self.driver.implicitly_wait(5)
 
     def test_length(self):
@@ -65,7 +65,7 @@ class TestExecution(unittest.TestCase):
         CommPage(self.driver).edit_comment()
         CommPage(self.driver).chose_all_category_comment()
         CommPage(self.driver).filling_text_comment("EDIT", True)
-        CommPage(self.driver).save_and_return()
+        CommPage(self.driver).save_return()
         CommPage(self.driver).sort_by_number()
         actual_result = CommPage(self.driver).check_categories_main()
         expected_result = ['Cat1; Cat2; Cat3; Cat4; Cat5']
