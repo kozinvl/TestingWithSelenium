@@ -31,28 +31,28 @@ class CommPage(object):
     def delete_comment(self):
         """click on delete button and move to edit page"""
         delete_comment = self.driver.find_element_by_xpath(
-            Delete().get_delete_button())
+            Delete().DELETE_BUTTON)
         delete_comment.click()
 
     def confirm_action(self):
         """confirmation positive action with button (yes)"""
         confirm_btn = self.driver.find_element_by_xpath(
-            Delete().get_confirmative_button())
+            Delete().CONFIRMATION_BUTTON)
         confirm_btn.click()
 
-    def filling_text_comment(self, add_text: str, is_cleared: False):
+    def filling_text_comment(self, add_text: str, is_filled: False):
         """filling comment field by letters"""
-        text_field = self.driver.find_element_by_id(NewComm().send_text())
-        if is_cleared:
+        text_field = self.driver.find_element_by_id(NewComm().SEND_TEXT)
+        if is_filled:
             text_field.clear()
         text_field.send_keys(add_text, Keys.ENTER)
 
-    def filling_number(self, add_number: str, is_cleared: False):
+    def filling_number(self, add_number: str, is_filled: False):
         """filling comment field by number"""
         number_field = self.driver.find_element_by_id(
-            NewComm().send_number())
+            NewComm().SEND_NUMBER)
         number_field.click()
-        if is_cleared:
+        if is_filled:
             number_field.clear()
         number_field.send_keys(add_number, Keys.ENTER)
 
@@ -75,13 +75,13 @@ class CommPage(object):
         one_category.click()
         one_category.click()
         confirm_category = self.driver.find_element_by_name(
-            NewComm().confirm_one_category())
+            NewComm().ONE_CATEGORY)
         confirm_category.click()
 
     def chose_all_category_comment(self):
         """chose all category on new comment page"""
         self.driver.find_element_by_name(
-            NewComm().confirm_all_category()).click()
+            NewComm().ALL_CATEGORIES).click()
 
     def check_error_length(self):
         actual_error = self.driver.find_element_by_xpath(
@@ -101,7 +101,7 @@ class CommPage(object):
 
     def check_successful_popup(self):
         successful_txt = self.driver.find_element_by_id(
-            Delete().get_successful_text())
+            Delete().SUCCESSFUL_TEXT)
         return successful_txt.text
 
     def chose_all_category_main(self):
@@ -123,12 +123,12 @@ class CommPage(object):
     def sort_by_number(self):
         """sorting comments by number on main page"""
         sort_number = self.driver.find_element_by_xpath(
-            NewComm().sort_by_numb())
+            NewComm().SORT_BY_NUMBER)
         sort_number.click()
 
     def check_categories_main(self) -> list:
         web_elements = self.driver.find_elements_by_class_name(
-            NewComm().get_category_text())
+            NewComm().TEXT_IN_CATEGORIES)
         web_text_elements = [web_element.text for web_element in web_elements]
         actual_result = [each.split(",") for each in web_text_elements]
         return actual_result
