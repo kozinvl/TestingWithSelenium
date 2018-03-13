@@ -13,7 +13,7 @@ class TestExecution(unittest.TestCase):
         self.driver.get(PathUrl().get_url_site())
         self.driver.implicitly_wait(5)
 
-    def test_case_one_length(self):
+    def test_length(self):
         """Checking error message after filling 50 letters"""
         CommPage(self.driver).create_comment()
         for i in range(51):
@@ -25,7 +25,7 @@ class TestExecution(unittest.TestCase):
         actual_error = CommPage(self.driver).check_error_length()
         self.assertEqual(expected_error, actual_error)
 
-    def test_case_second_symbol(self):
+    def test_symbol(self):
         """Checking error message of comment with filling text by symbol"""
         CommPage(self.driver).create_comment()
         CommPage(self.driver).filling_text_comment("!№;", False)
@@ -35,14 +35,14 @@ class TestExecution(unittest.TestCase):
         actual_error = CommPage(self.driver).check_error_symbol()
         self.assertEqual(expected_error, actual_error)
 
-    def test_case_three(self):
+    def test_duplicate(self):
         """Checking duplicate button and alert popup without category"""
         CommPage(self.driver).duplicate_comment()
         expected_alert = "Please, select one category"
         actual_alert = CommPage(self.driver).check_popup()
         assert expected_alert in actual_alert
 
-    def test_case_four(self):
+    def test_duplicate_alert(self):
         """Checking duplicate button and alert popup
         with select category of main page"""
         CommPage(self.driver).chose_all_category_main()
@@ -51,14 +51,14 @@ class TestExecution(unittest.TestCase):
         actual_alert = CommPage(self.driver).check_popup()
         assert expected_alert in actual_alert
 
-    def test_case_five(self):
+    def test_edit_title(self):
         """Checking title name of edit page"""
         CommPage(self.driver).chose_one_category_main()
         CommPage(self.driver).edit_comment()
         actual_name = CommPage(self.driver).check_title_page()
         self.assertIn("Editor", actual_name)
 
-    def test_case_six(self):
+    def test_main_categories(self):
         """Checking categories (Cat0, Cat1 etc.) on main page after editing
         P.S. It will been failed!"""
         CommPage(self.driver).chose_one_category_main()
@@ -71,14 +71,14 @@ class TestExecution(unittest.TestCase):
         expected_result = ['Cat1; Cat2; Cat3; Cat4; Cat5']
         self.assertIn(expected_result, actual_result)
 
-    def test_case_seven(self):
+    def test_delete_popup(self):
         """Delete a random comment and confirm this action.
         Waiting for the pop-up request"""
         CommPage(self.driver).chose_one_category_main()
         CommPage(self.driver).delete_comment()
         CommPage(self.driver).confirm_action()
 
-    def test_case_eight(self):
+    def test_delete_error(self):
         """Checking message after choosing commentary and clicking a delete"""
         CommPage(self.driver).chose_one_category_main()
         CommPage(self.driver).delete_comment()
@@ -87,7 +87,7 @@ class TestExecution(unittest.TestCase):
         expected_result = 'Selected comments deleted successfull'
         self.assertEqual(expected_result, actual_result)
 
-    def test_case_nine(self):
+    def test_comm_page_error_number(self):
         """Checking error message after filling number on comment page"""
         CommPage(self.driver).create_comment()
         CommPage(self.driver).filling_number('1024', False)
