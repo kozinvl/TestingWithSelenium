@@ -11,12 +11,13 @@ class NewComm(object):
     TEXT_CATEGORIES = "categorycolumn"
     SORT_NUMBER = ".//*[@class='webgrid-header']//a[text()='Number']"
     RANDOM_CATEGORY_START = 2
-    RANDOM_CATEGORY_END = 4
+    RANDOM_CATEGORY_FINISH = 4
 
     @staticmethod
     def get_category_cat() -> str:
         """choosing random category on the new comm page"""
-        random_digit = random.randint(NewComm.RANDOM_CATEGORY_START, NewComm.RANDOM_CATEGORY_END)
+        random_digit = random.randint(NewComm.RANDOM_CATEGORY_START,
+                                      NewComm.RANDOM_CATEGORY_FINISH)
         return ".//*[@id='Categories'][@name='Categories']" \
                "[@value = {digit}]".format(digit=random_digit)
 
