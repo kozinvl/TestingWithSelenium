@@ -17,12 +17,12 @@ class CommentsPage(object):
             NewComm().CREATE_BUTTON)
         comment.click()
 
-    def duplicate_comment(self):
+    def click_duplicate_comment(self):
         duplicate_comment = self.driver.find_element_by_xpath(
             Duplicate().DUPLICATE_BUTTON)
         duplicate_comment.click()
 
-    def edit_comment(self):
+    def click_edit_comment(self):
         """click on edit button and move to edit page"""
         edit_comment = self.driver.find_element_by_xpath(
             Edit().EDIT_BUTTON)
@@ -41,14 +41,14 @@ class CommentsPage(object):
         confirm_btn.click()
 
     def filling_text_comment(self, add_text: str, is_filled: False):
-        """filling comment field by letters"""
+        """filling comment text field by letters"""
         text_field = self.driver.find_element_by_id(NewComm().SEND_TEXT)
         if is_filled:
             text_field.clear()
         text_field.send_keys(add_text, Keys.ENTER)
 
     def filling_number(self, add_number: str, is_filled: False):
-        """filling comment field by number"""
+        """filling comment number field by number"""
         number_field = self.driver.find_element_by_id(
             NewComm().SEND_NUMBER)
         number_field.click()
@@ -71,14 +71,14 @@ class CommentsPage(object):
     def chose_one_category_comment(self):
         """chose category on new comment page"""
         one_category = self.driver.find_element_by_xpath(
-            NewComm().chose_random_category_cat())
+            NewComm().choose_random_category_cat())
         one_category.click()
         one_category.click()
         confirm_category = self.driver.find_element_by_name(
             NewComm().ONE_CATEGORY)
         confirm_category.click()
 
-    def chose_all_category_comment(self):
+    def choose_all_category_comment(self):
         """chose all category on new comment page"""
         self.driver.find_element_by_name(
             NewComm().ALL_CATEGORIES).click()
@@ -104,23 +104,23 @@ class CommentsPage(object):
             Delete().SUCCESSFUL_TEXT)
         return successful_txt.text
 
-    def chose_all_categories_main(self):
+    def choose_all_categories_main(self):
         """chose all categories on main page"""
         all_category = self.driver.find_elements_by_name(
             Other().ALL_CATEGORIES_MAIN)
         for each_category in all_category:
             each_category.click()
 
-    def chose_one_category_main(self):
+    def choose_one_category_main(self):
         """chose one category on main page"""
         one_category = self.driver.find_element_by_xpath(
-            Other().chose_one_random_cat())
+            Other().choose_one_random_cat())
         one_category.click()
 
     def get_name_title_page(self):
         return self.driver.title
 
-    def sort_by_number(self):
+    def sort_number(self):
         """sorting comments by number on main page"""
         sort_number = self.driver.find_element_by_xpath(
             NewComm().SORT_NUMBER)

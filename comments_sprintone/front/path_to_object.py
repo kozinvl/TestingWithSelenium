@@ -14,7 +14,7 @@ class NewComm(object):
     RANDOM_CATEGORY_FINISH = 4
 
     @staticmethod
-    def chose_random_category_cat() -> str:
+    def choose_random_category_cat() -> str:
         """choosing random category on the new comm page"""
         random_digit = random.randint(NewComm.RANDOM_CATEGORY_START,
                                       NewComm.RANDOM_CATEGORY_FINISH)
@@ -46,7 +46,7 @@ class Other(object):
     RANDOM_CAT_FINISH = 10
 
     @staticmethod
-    def chose_one_random_cat() -> str:
+    def choose_one_random_cat() -> str:
         """Choosing random category main page"""
         path_checkbox = "(//INPUT[@type='checkbox'])"
         random_category = random.randint(Other.RANDOM_CAT_START,

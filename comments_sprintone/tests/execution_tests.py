@@ -39,7 +39,7 @@ class TestExecution(unittest.TestCase):
     def test_duplicate_alert(self):
         """Checking duplicate button and alert popup without category"""
         comment_page = CommentsPage(self.driver)
-        comment_page.duplicate_comment()
+        comment_page.click_duplicate_comment()
         expected_alert = "Please, select one category"
         actual_alert = comment_page.get_check_popup()
         assert expected_alert in actual_alert
@@ -48,8 +48,8 @@ class TestExecution(unittest.TestCase):
         """Checking duplicate button and alert popup
         with select category of main page"""
         comment_page = CommentsPage(self.driver)
-        comment_page.chose_all_categories_main()
-        comment_page.duplicate_comment()
+        comment_page.choose_all_categories_main()
+        comment_page.click_duplicate_comment()
         expected_alert = "Please, select one category"
         actual_alert = comment_page.get_check_popup()
         assert expected_alert in actual_alert
@@ -57,8 +57,8 @@ class TestExecution(unittest.TestCase):
     def test_edit_page_title_name(self):
         """Checking title name of edit page"""
         comment_page = CommentsPage(self.driver)
-        comment_page.chose_one_category_main()
-        comment_page.edit_comment()
+        comment_page.choose_one_category_main()
+        comment_page.click_edit_comment()
         actual_name = comment_page.get_name_title_page()
         self.assertIn("Editor", actual_name)
 
@@ -66,12 +66,12 @@ class TestExecution(unittest.TestCase):
         """Checking categories (Cat0, Cat1 etc.) on main page after editing
         P.S. It will been failed!"""
         comment_page = CommentsPage(self.driver)
-        comment_page.chose_one_category_main()
-        comment_page.edit_comment()
-        comment_page.chose_all_category_comment()
+        comment_page.choose_one_category_main()
+        comment_page.click_edit_comment()
+        comment_page.choose_all_category_comment()
         comment_page.filling_text_comment("EDIT", True)
         comment_page.save_return()
-        comment_page.sort_by_number()
+        comment_page.sort_number()
         actual_result = comment_page.get_categories_main()
         expected_result = ['Cat1; Cat2; Cat3; Cat4; Cat5']
         self.assertIn(expected_result, actual_result)
@@ -80,14 +80,14 @@ class TestExecution(unittest.TestCase):
         """Delete a random comment and confirm this action.
         Waiting for the pop-up request"""
         comment_page = CommentsPage(self.driver)
-        comment_page.chose_one_category_main()
+        comment_page.choose_one_category_main()
         comment_page.delete_comment()
         comment_page.confirm_action()
 
     def test_delete_comment_error(self):
         """Checking message after choosing commentary and clicking a delete"""
         comment_page = CommentsPage(self.driver)
-        comment_page.chose_one_category_main()
+        comment_page.choose_one_category_main()
         comment_page.delete_comment()
         comment_page.confirm_action()
         actual_result = comment_page.get_successful_popup()
@@ -100,7 +100,7 @@ class TestExecution(unittest.TestCase):
         comment_page.click_create_comment()
         comment_page.filling_number('1024', False)
         comment_page.filling_text_comment("Some text", False)
-        comment_page.chose_all_category_comment()
+        comment_page.choose_all_category_comment()
         comment_page.save()
         expected_error = 'The Number field should contain value from 0 to 999'
         actual_error = comment_page.get_error_symbol()
