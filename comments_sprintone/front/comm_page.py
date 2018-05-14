@@ -14,7 +14,7 @@ class CommentsPage(object):
     def click_create_comment(self):
         """click on new button and move to new comment page"""
         comment = self.driver.find_element_by_id(
-            NewComm().CREATE_BUTTON)
+            NewComm.CREATE_BUTTON)
         comment.click()
 
     def click_duplicate_comment(self):

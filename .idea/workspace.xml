@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="">
+    <list default="true" id="1ac62c4d-9799-4934-b770-a1e3a1228cc6" name="Default" comment="refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/HomeSelen.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" afterPath="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" />
-      <change beforePath="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" afterPath="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" />
-      <change beforePath="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" afterPath="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,109 +15,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44827586">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="path_to_object.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-117">
-                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="comm_page.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-61">
-                  <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="execution_tests.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execution_tests.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comm_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="130" column="19" lean-forward="false" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="path_to_object.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="version2" />
+        <entry key="$PROJECT_DIR$" value="finally" />
       </map>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/selen/selen_home.py" />
-        <option value="$PROJECT_DIR$/selen/new_button.py" />
-        <option value="$PROJECT_DIR$/selen/edit_button.py" />
-        <option value="$PROJECT_DIR$/Site/edit_button.py" />
-        <option value="$PROJECT_DIR$/Site/backend/all_button_site.py" />
-        <option value="$PROJECT_DIR$/Site/test/delete_button.py" />
-        <option value="$PROJECT_DIR$/Site/resource/1.py" />
-        <option value="$PROJECT_DIR$/Site/resource/Driver.py" />
-        <option value="$PROJECT_DIR$/Site/resource/WebDriver.py" />
-        <option value="$PROJECT_DIR$/Site/test/edit_button.py" />
-        <option value="$PROJECT_DIR$/Site/resource/PathToDriver.py" />
-        <option value="$PROJECT_DIR$/Site/test/new_button.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/backend/path_to_object.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/delete_button.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/edit_button.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/new_button.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/tests_function.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/front/tests_function.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/resource/url_site.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/resource/path_driver.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/tests/execution_tests.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/front/path_to_object.py" />
-        <option value="$PROJECT_DIR$/comments_sprintone/front/comm_page.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,21 +94,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HomeSelen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeSelen" type="462c0819:PsiDirectoryNode" />
+              <item name="site_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HomeSelen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeSelen" type="462c0819:PsiDirectoryNode" />
+              <item name="site_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_selenium" type="462c0819:PsiDirectoryNode" />
               <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="HomeSelen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeSelen" type="462c0819:PsiDirectoryNode" />
+              <item name="site_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="site_selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="site_selenium" type="462c0819:PsiDirectoryNode" />
               <item name="comments_sprintone" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -157,22 +129,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vkozitc\Downloads\site_selenium-master\comments_sprintone\front" />
-      <recent name="E:\SourcePython\HomeSelen\Site" />
-      <recent name="E:\SourcePython\HomeSelen\Site\resource" />
-      <recent name="E:\SourcePython\HomeSelen" />
-      <recent name="E:\SourcePython\HomeSelen\Site\test" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,351 +147,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for execution_tests.TestExecution">
-    <configuration name="path_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HomeSelen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/resource" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comments_sprintone/resource/path_driver.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests for comments_sprintone.tests.execution_tests.TestExecution.test_length" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HomeSelen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;comments_sprintone.tests.execution_tests.TestExecution.test_length&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for execution_tests.TestExecution" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HomeSelen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;execution_tests.TestExecution&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for execution_tests.TestExecution.test_case_three" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HomeSelen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;execution_tests.TestExecution.test_case_three&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for execution_tests.TestExecution.test_length" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HomeSelen" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/comments_sprintone/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;execution_tests.TestExecution.test_length&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <list>
-      <item itemvalue="Python tests.Unittests for execution_tests.TestExecution" />
-      <item itemvalue="Python tests.Unittests for comments_sprintone.tests.execution_tests.TestExecution.test_length" />
-      <item itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_three" />
-      <item itemvalue="Python.path_driver" />
-      <item itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_length" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Unittests for execution_tests.TestExecution" />
-        <item itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_length" />
-        <item itemvalue="Python.path_driver" />
-        <item itemvalue="Python tests.Unittests for execution_tests.TestExecution.test_case_three" />
-        <item itemvalue="Python tests.Unittests for comments_sprintone.tests.execution_tests.TestExecution.test_length" />
-      </list>
-    </recent_temporary>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="2ac400dd-12fb-41c1-bfcc-55bfe90952af" name="Default" comment="" />
-      <created>1520162061411</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1520162061411</updated>
-    </task>
-    <task id="LOCAL-00001" summary="test commit">
-      <created>1520278226552</created>
+    <task id="LOCAL-00001" summary="refactoring">
+      <created>1526321144314</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1520278226552</updated>
+      <updated>1526321144314</updated>
     </task>
-    <task id="LOCAL-00002" summary="test commit">
-      <created>1520434051966</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1520434051966</updated>
-    </task>
-    <task id="LOCAL-00003" summary="updated commit">
-      <created>1520783030795</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1520783030795</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updated commit">
-      <created>1520783095211</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1520783095211</updated>
-    </task>
-    <task id="LOCAL-00005" summary="updated commit">
-      <created>1520788011218</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1520788011218</updated>
-    </task>
-    <task id="LOCAL-00006" summary="updated commit">
-      <created>1520791694158</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1520791694158</updated>
-    </task>
-    <task id="LOCAL-00007" summary="updated commit">
-      <created>1520793032319</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1520793032319</updated>
-    </task>
-    <task id="LOCAL-00008" summary="updated commit">
-      <created>1520793408306</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1520793408306</updated>
-    </task>
-    <task id="LOCAL-00009" summary="updated commit">
-      <created>1520882917194</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1520882917194</updated>
-    </task>
-    <task id="LOCAL-00010" summary="updated README">
-      <created>1520883167675</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1520883167675</updated>
-    </task>
-    <task id="LOCAL-00011" summary="upd constants">
-      <created>1520888711729</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1520888711729</updated>
-    </task>
-    <task id="LOCAL-00012" summary="added constants">
-      <created>1520942789740</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1520942789740</updated>
-    </task>
-    <task id="LOCAL-00013" summary="was changed test names">
-      <created>1520942895435</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1520942895435</updated>
-    </task>
-    <task id="LOCAL-00014" summary="updated">
-      <created>1520943160863</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1520943160863</updated>
-    </task>
-    <task id="LOCAL-00015" summary="updated">
-      <created>1520958620432</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1520958620432</updated>
-    </task>
-    <task id="LOCAL-00016" summary="changed executable path">
-      <created>1520959064578</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1520959064578</updated>
-    </task>
-    <task id="LOCAL-00017" summary="upd">
-      <created>1520959570542</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1520959570542</updated>
-    </task>
-    <task id="LOCAL-00018" summary="upd">
-      <created>1520974595279</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1520974595279</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_execution_tests_TestExecution - 2018.03.14 at 11h 57m 35s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution - 2018.03.14 at 13h 17m 24s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_one_length - 2018.03.12 at 19h 36m 45s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_one_length" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_one_length - 2018.03.12 at 19h 46m 50s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_one_length" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_second_symbol - 2018.03.12 at 19h 17m 46s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_second_symbol" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 05m 37s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 06m 07s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 06m 26s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_case_three - 2018.03.12 at 22h 25m 23s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_case_three" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_execution_tests_TestExecution_test_length - 2018.03.13 at 21h 03m 24s.xml">
-      <configuration name="Unittests for execution_tests.TestExecution.test_length" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27172717" sideWeight="0.50238097" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27172717" sideWeight="0.49761903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22552255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19247788" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15181518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22552255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test commit" />
-    <MESSAGE value="updated commit" />
-    <MESSAGE value="updated README" />
-    <MESSAGE value="upd constants" />
-    <MESSAGE value="added constants" />
-    <MESSAGE value="was changed test names" />
-    <MESSAGE value="updated" />
-    <MESSAGE value="changed executable path" />
-    <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/comments_sprintone/resource/url_site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +249,6 @@
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -590,7 +267,6 @@
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,7 +288,6 @@
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -621,7 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +315,6 @@
           <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -702,7 +375,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,6 +403,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -739,23 +417,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="74" column="28" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -766,25 +428,25 @@
           <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1521026006919" expanded="true" signature="1046:4744" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/comm_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="130" column="19" lean-forward="false" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments_sprintone/front/path_to_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
