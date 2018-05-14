@@ -29,7 +29,7 @@ class TestExecution(unittest.TestCase):
         """Checking error message of comment with filling text by symbol"""
         comment_page = CommentsPage(self.driver)
         comment_page.click_create_comment()
-        comment_page.filling_text_comment("!№;", False)
+        comment_page.filling_text_comment("!@", False)
         comment_page.save()
         expected_error = "The Comment Text field should " \
                          "contain alphanumeric characters only"
