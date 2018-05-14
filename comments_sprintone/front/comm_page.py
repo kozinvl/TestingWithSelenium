@@ -101,7 +101,7 @@ class CommentsPage(object):
 
     def get_successful_popup(self):
         successful_txt = self.driver.find_element_by_id(
-            Delete().SUCCESSFUL_TEXT)
+            Delete.SUCCESSFUL_TEXT)
         return successful_txt.text
 
     def choose_all_categories_main(self):
