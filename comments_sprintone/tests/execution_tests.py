@@ -9,8 +9,8 @@ from comments_sprintone.resource.url_site import PathUrl
 class TestExecution(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(
-            executable_path=GetDriver().DRIVER_CHROME)
-        self.driver.get(PathUrl().URL_SITE)
+            executable_path=GetDriver.DRIVER_CHROME)
+        self.driver.get(PathUrl.URL_SITE)
         self.driver.implicitly_wait(5)
 
     def test_comment_text_field_length(self):
