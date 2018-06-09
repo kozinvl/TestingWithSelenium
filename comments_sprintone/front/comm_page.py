@@ -1,5 +1,9 @@
-from comments_sprintone.front.path_to_object import NewComm, Other, \
-    Delete, Duplicate, Edit
+from comments_sprintone.front.path_to_object import \
+    NewComm, \
+    Other, \
+    Delete, \
+    Duplicate, \
+    Edit
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
